@@ -1,6 +1,6 @@
-# Startup Search WebApp
+# Deep Start AI WebApp
 
-Startup Search is a web app for startup research and early diligence.
+Deep Start AI is a web app for startup research and early diligence.
 It helps resolve ambiguous company names, collect relevant public web sources,
 extract structured founder and funding details, and generate an investor-style
 research brief.
