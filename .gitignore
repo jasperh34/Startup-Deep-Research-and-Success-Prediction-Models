@@ -20,3 +20,7 @@ coverage/
 # Python/cache artifacts
 __pycache__/
 *.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
