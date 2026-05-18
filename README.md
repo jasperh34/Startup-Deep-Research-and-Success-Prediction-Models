@@ -5,8 +5,8 @@ It helps resolve ambiguous company names, collect relevant public web sources,
 extract structured founder and funding details, and generate an investor-style
 research brief.
 
-The current product is a Next.js browser UI backed by a Python research API.
-The Python backend owns the core workflow:
+The current project is a Next.js browser UI backed by a Python research API.
+The Python backend contains the core workflow:
 
 - company search and disambiguation
 - source collection, relevance filtering, and deduplication
@@ -105,17 +105,13 @@ Using a dataset of 60,000 startups from Kwaggle, I compared an MLP model to Logi
 
 ## Future Plans: Improving Models and Integrating into WebApp
 
-A planned next major feature is a success prediction layer that estimates a
+The future of this project will involve integrating into the WebApp a success prediction layer that estimates a
 startup's probability of reaching a future funding milestone. The feature is
 inspired by Emily Gavrilenko's Cal Poly thesis,
 [Predicting Startup Success Using Publicly Available Data](https://digitalcommons.calpoly.edu/theses/2652/),
 which studies whether public company data, funding history, news, search
 presence, and social activity can predict whether a startup raises another round
 within a fixed time horizon.
-
-The goal is not to replace investor judgment. The goal is to add a consistent,
-auditable signal that can help prioritize diligence, surface overlooked
-companies, and make the app's research reports more decision-oriented.
 
 ### Prediction Roadmap
 
