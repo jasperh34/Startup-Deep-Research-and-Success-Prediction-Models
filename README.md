@@ -99,11 +99,11 @@ Health check:
 ```bash
 curl http://127.0.0.1:8000/health
 ```
-# Startup Success Prediction Models (experimentation and initial results contained in notebook)
+# Startup Success Prediction Models 
 
-Using a dataset of 60,000 startups from Kwaggle, I compared an MLP model to Logistic Regression, Random Forest and Gradient Boosting models for predicting startup success without 'leakage' from future sucess indicators. 
+Using a dataset of 60,000 startups from Kwaggle, I compared an MLP model to Logistic Regression, Random Forest and Gradient Boosting models for predicting startup success without 'leakage' from future sucess indicators. Experimentation and initial results contained in jupyter notebook. 
 
-## Future: Startup Success Prediction
+## Future Plans: Improving Models and Integrating into WebApp
 
 A planned next major feature is a success prediction layer that estimates a
 startup's probability of reaching a future funding milestone. The feature is
