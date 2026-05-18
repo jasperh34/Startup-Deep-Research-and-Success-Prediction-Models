@@ -1,0 +1,22 @@
+.DS_Store
+**/.DS_Store
+
+# Local environment files
+.env
+.env.*
+**/.env
+**/.env.*
+!**/.env.local.example
+
+# Dependencies and build outputs
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+out/
+build/
+coverage/
+
+# Python/cache artifacts
+__pycache__/
+*.py[cod]
