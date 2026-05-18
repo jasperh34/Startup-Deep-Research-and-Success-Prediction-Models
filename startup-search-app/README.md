@@ -1,6 +1,6 @@
-# Jasper Startup Search
+# Startup Search
 
-Jasper Startup Search is a web app for startup research and early diligence.
+Startup Search is a web app for startup research and early diligence.
 It helps resolve ambiguous company names, collect relevant public web sources,
 extract structured founder and funding details, and generate an investor-style
 research brief.
@@ -172,14 +172,4 @@ companies, and make the app's research reports more decision-oriented.
    probability, funding stage, region, sentiment/traction quartile, recent signal
    changes, and data completeness.
 
-### Product Principles
 
-- Every prediction should be tied to the information available at prediction
-  time.
-- The UI should show uncertainty and missing data rather than hiding it behind a
-  single score.
-- Early versions should prefer transparent scoring over opaque model confidence.
-- Model performance should be evaluated on funding-milestone prediction, not
-  broad accuracy, because startup outcomes are highly imbalanced.
-- Prediction output should support diligence prioritization, not automatic
-  investment decisions.
